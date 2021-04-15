@@ -1,41 +1,89 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Website</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Danicas's Site</h1>
-        <nav>
+      <h1>Danicas's Site</h1>
+      <nav>
         <p>Name: Danica Dombek</p>
         <a href="#kontakt">Kontakt</a>
-        <a href="biographie.html">Biographie</a>
-        </nav>
+        <a href="#biographie">Biographie</a>
+      </nav>
     </header>
 
     <main>
-        <section id="private">
-        <img src="./images/dd-site.jpg" alt="">
+      <section class="private">
+        <img src="images/dd-site.jpg" alt="" width="300px" />
         <figcaption>Entschleunigen in der Natur.</figcaption>
         <h2>Fähigkeiten/ Interessen</h2>
         <ul>
-        <li>Schreiben</li>
-        <li>Testmanagement</li>
-        <li>Mobile App-Testing</li>
-        <li>Photoshop</li>
-        <li>InDesign</li>
+          <li>Schreiben</li>
+          <li>Testmanagement</li>
+          <li>Mobile App-Testing</li>
+          <li>Photoshop</li>
+          <li>InDesign</li>
         </ul>
+      </section>
+
+      <section id="kontakt">
+        <h2>Kontakt</h2>
+        <address>
+          <a href="tel:+4915236420470">Telefon: 01523/ 64 20 470</a><br />
+          <a href="mailto:danica.dombek@gmx.de">Mail: Danica.Dombek@gmx.de</a>
+        </address>
+      </section>
+      <section id="social">
+        <!--bulletpoints mit CSS entfernen-->
+        <ul>
+        <li><a href="https://codepen.io/DanicaD" rel="rel="noopener noreferrer target="_blank"><img src="./images/logos/codepen-logo.png" alt="CodePen"></a></li>
+        <li><a href="https://github.com/danicadombek rel="rel="noopener noreferrer target="_blank""><img src="./images/logos/github-logo.png" alt="Github"></a></li>
+        <li><a href="https://www.linkedin.com/in/danica-dombek-b80375161/ rel="rel="noopener noreferrer target="_blank""><img src="./images/logos/linkedin-logo.png" alt="CodePen"></a></li>
+        </ul>    
         </section>
 
-        <section id="kontakt">
-        <h2>Kontakt</h2>
-        <p>Telefon: 01523/ 12 34 56</p>
-        <p>Mail: Danica.Dombek@gmx.de</p>
-        </sektion>
+        <section id="biographie">
+        <h2>Was lange währt, wird endlich..</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium,
+              ipsam a nobis dolores vero voluptatum recusandae, atque ut provident
+              mollitia nisi doloribus dolore? Voluptas obcaecati doloribus,
+              laudantium veritatis iusto ea.
+            </p>
+          </section>
+    
+          <section id="cv">
+            <h2>CV</h2>
+            <table borderline="1">
+              <tr>
+                <td>Ausbildungen:</td>
+                <td>Veranstaltungskauffrau</td>
+                <td>Assistentin für Screen Design</td>
+              </tr>
+              <tr>
+                <td>08/2014-12/2020</td>
+                <td>Kundenbetreuerin</td>
+                <td>TKgesundheit GmbH</td>
+              </tr>
+              <tr>
+                <td>- externes Projekt (2 Jahre)</td>
+                <td>Mobile App Tester</td>
+                <td>Die Techniker</td>
+              </tr>
+              <tr>
+                <td>12/2008-06/2011</td>
+                <td>TV-Redakteurin</td>
+                <td>Schwartzkopff TV</td>
+              </tr>
+            </table>
+          </section>
     </main>
-
-</body>
+    <footer>
+        <h3>Impressum</h3>
+        Copyright by Danica Dombek</br>
+      </footer>
+  </body>
 </html>
