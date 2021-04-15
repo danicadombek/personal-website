@@ -5,50 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
     <title>Personal Website</title>
   </head>
   <body>
     <header>
-      <h1>Danicas's Site</h1>
+      <h1>Danicas's Personal Website</h1>
+      Name: Danica Dombek
       <nav>
-        <p>Name: Danica Dombek</p>
         <a href="#kontakt">Kontakt</a>
         <a href="#biographie">Biographie</a>
       </nav>
     </header>
 
     <main>
-      <section class="private">
-        <img src="images/dd-site.jpg" alt="" width="300px" />
+      
+        <img class="image-flex" src="images/dd-site.jpg" alt="" width="300px" />
         <figcaption>Entschleunigen in der Natur.</figcaption>
-        <h2>Fähigkeiten/ Interessen</h2>
+        
+        <section class="facts">   
+        <h2>Fähigkeiten</h2>
         <ul>
-          <li>Schreiben</li>
           <li>Testmanagement</li>
           <li>Mobile App-Testing</li>
           <li>Photoshop</li>
           <li>InDesign</li>
+            </ul>
+        </section>
+
+        <section class="facts"> 
+          <h2>Interessen</h2>
+          <ul>
+          <li>Schreiben</li>
+          <li>Lesen</li>
+          <li>Kochen</li>
+          <li>Natur</li>
         </ul>
-      </section>
+    </section>
+     
 
       <section id="kontakt">
         <h2>Kontakt</h2>
         <address>
-          <a href="tel:+4915236420470">Telefon: 01523/ 64 20 470</a><br />
-          <a href="mailto:danica.dombek@gmx.de">Mail: Danica.Dombek@gmx.de</a>
+          <a href="tel:+4915236420470" class="links-normal">Telefon: 01523/ 64 20 470</a><br />
+          <a href="mailto:danica.dombek@gmx.de" class="links-normal">Mail: Danica.Dombek@gmx.de</a>
         </address>
       </section>
-      <section id="social">
-        <!--bulletpoints mit CSS entfernen-->
+      
+      <section>
         <ul>
-        <li><a href="https://codepen.io/DanicaD" rel="rel="noopener noreferrer target="_blank"><img src="./images/logos/codepen-logo.png" alt="CodePen"></a></li>
-        <li><a href="https://github.com/danicadombek rel="rel="noopener noreferrer target="_blank""><img src="./images/logos/github-logo.png" alt="Github"></a></li>
-        <li><a href="https://www.linkedin.com/in/danica-dombek-b80375161/ rel="rel="noopener noreferrer target="_blank""><img src="./images/logos/linkedin-logo.png" alt="CodePen"></a></li>
+        <li><img src="./images/logos/codepen.png" alt="CodePen" width="130px"><a href="https://codepen.io/DanicaD" rel="noopener noreferrer" target="_blank" class="links-normal">Besuche mich gerne auf CodePen</a></li>
+        <li><img src="./images/logos/github.png" alt="Github" width="160px"><a href="https://github.com/danicadombek" rel="noopener noreferrer" target="_blank" class="links-normal">Github habe ich natürlich auch</a></li>
+        <li><img src="./images/logos/linkedin.png" alt="Linkedin" width="100px"><a href="https://www.linkedin.com/in/danica-dombek-b80375161/" rel="noopener noreferrer" target="_blank" class="links-normal">Oder gehe auf mein Linkedin-Profil</a></li>
+        <li><img src="./images/logos/xing.png" alt="Xing" width="100px"><a href="https://www.xing.com/profile/Danica_Dombek/cv" rel="noopener noreferrer" target="_blank" class="links-normal">Lieber Xing?</a></li>       
         </ul>    
         </section>
 
         <section id="biographie">
-        <h2>Was lange währt, wird endlich..</h2>
+        <h2>Der Weg ist das Ziel</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium,
               ipsam a nobis dolores vero voluptatum recusandae, atque ut provident
               mollitia nisi doloribus dolore? Voluptas obcaecati doloribus,
@@ -56,30 +71,16 @@
             </p>
           </section>
     
-          <section id="cv">
+          <section class="cv">
             <h2>CV</h2>
-            <table borderline="1">
-              <tr>
-                <td>Ausbildungen:</td>
-                <td>Veranstaltungskauffrau</td>
-                <td>Assistentin für Screen Design</td>
-              </tr>
-              <tr>
-                <td>08/2014-12/2020</td>
-                <td>Kundenbetreuerin</td>
-                <td>TKgesundheit GmbH</td>
-              </tr>
-              <tr>
-                <td>- externes Projekt (2 Jahre)</td>
-                <td>Mobile App Tester</td>
-                <td>Die Techniker</td>
-              </tr>
-              <tr>
-                <td>12/2008-06/2011</td>
-                <td>TV-Redakteurin</td>
-                <td>Schwartzkopff TV</td>
-              </tr>
-            </table>
+            <dl>
+                <dt>08/2014-12/2020</dt>
+                <dd><b>Kundenbetreuerin, TKgesundheit GmbH</b></dd>
+                <dt>- externes Projektn (Zwei Jahre)</dt>
+                <dd><b>Mobile App Tester</b></dd>
+                <dt>2/2008-06/2011</dt>
+                <dd><b>TV-Redakteurin, Schwartzkopff TV</b></dd>
+            </dl>
           </section>
 
     </main>
