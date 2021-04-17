@@ -37,6 +37,10 @@ h2 {
   font-size: 18px;
 }
 
+.standard-margin {
+  margin-bottom: 20px;
+}
+
 .navi-buttons {
   background-color: var(--black);
   color: azure;
@@ -58,15 +62,19 @@ h2 {
 }
 
 .extra-margin {
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 .social-media {
-  width: 20px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.img-logos {
+  height: 50px;
+  width: 50px;
 }
 
 .kontakt-icons {
@@ -78,8 +86,11 @@ h2 {
 }
 
 .links-kontakt {
+  border-bottom: 1px solid;
   color: var(--black);
   font-style: normal;
+  margin-left: 10px;
+  text-decoration: none;
 }
 
 .cv-dates {
@@ -90,6 +101,9 @@ h2 {
   margin: 0;
 }
 
-.standard-margin {
-  margin-bottom: 20px;
+.contact-flex {
+  display: flex;
+  justify-content: unset;
+  align-items: baseline;
+  flex-wrap: wrap;
 }
