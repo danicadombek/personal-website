@@ -33,6 +33,10 @@ ul {
   padding: 0;
 }
 
+h2 {
+  font-size: 18px;
+}
+
 .navi-buttons {
   background-color: var(--black);
   color: white;
@@ -50,13 +54,25 @@ ul {
 }
 
 .cv {
-  text-align: center;
+  text-align: left;
 }
 
 .extra-margin {
-  margin-left: 80px;
+  margin-left: 20px;
 }
 
 .social-media {
-  width: 30px;
+  width: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.biographie-text {
+  text-align: justify;
+}
+
+.links-kontakt {
+  color: var(--black);
 }
