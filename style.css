@@ -75,4 +75,13 @@ h2 {
 
 .links-kontakt {
   color: var(--black);
+  font-style: normal;
+}
+
+.cv-dates {
+  font-size: 12px;
+}
+
+.cv-content {
+  margin: 0;
 }
