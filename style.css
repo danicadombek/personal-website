@@ -39,8 +39,8 @@ h2 {
 
 .navi-buttons {
   background-color: var(--black);
-  color: white;
-  margin-bottom: 100px;
+  color: azure;
+  margin-bottom: 10px;
   padding: 10px;
   text-decoration: none;
   text-transform: uppercase;
@@ -69,6 +69,10 @@ h2 {
   flex-wrap: wrap;
 }
 
+.kontakt-icons {
+  width: 30px;
+}
+
 .biographie-text {
   text-align: justify;
 }
@@ -84,4 +88,8 @@ h2 {
 
 .cv-content {
   margin: 0;
+}
+
+.standard-margin {
+  margin-bottom: 20px;
 }
