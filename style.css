@@ -159,9 +159,8 @@ h2 {
   height: 30px;
 }
 
-.footer-flex {
+.pfeil-rechts {
   display: flex;
-  justify-content: unset;
-  align-items: space-between;
-  flex-wrap: wrap-reverse;
+  justify-content: flex-end;
+  margin-top: 0;
 }
