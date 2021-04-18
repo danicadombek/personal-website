@@ -21,7 +21,6 @@ header {
 
 body {
   background-color: var(--primary);
-  color: var(--black);
   font-family: 'Poppins', sans-serif;
   line-height: 1.4;
   margin: 0;
