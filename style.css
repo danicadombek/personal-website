@@ -7,7 +7,7 @@
   --primary: rgba(109, 129, 76, 0.664);
   --black: #2b2929;
   --content-color: rgb(58, 56, 56);
-  --content-text-color: rgba(224, 226, 221, 0.664);
+  --content-text-color: rgba(253, 253, 252, 0.664);
   width: 100vw;
   padding: 20px;
   margin: auto;
@@ -47,6 +47,10 @@ ul {
   padding: 0;
 }
 
+h1 {
+  margin-bottom: 50px;
+}
+
 h2 {
   font-size: 18px;
 }
@@ -57,7 +61,7 @@ h2 {
 
 .navi-buttons {
   background-color: var(--primary);
-  color: azure;
+  color: var(--content-text-color);
   margin-bottom: 10px;
   padding: 10px;
   text-decoration: none;
@@ -148,4 +152,16 @@ h2 {
 
 .copyright {
   font-size: 12px;
+}
+
+.back-top {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: unset;
+  align-items: space-between;
+  flex-wrap: wrap-reverse;
 }
