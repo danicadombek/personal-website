@@ -9,6 +9,7 @@
   --content-color: #d1d1d0;
   width: 100vw;
   padding: 20px;
+  margin: auto;
 }
 
 header {
@@ -69,11 +70,11 @@ h2 {
 }
 
 .border-top {
-  border-top-style: solid;
+  border-top: 1px solid var(--black);
 }
 
 .border-bottom {
-  border-bottom-style: solid;
+  border-bottom: 1px solid var(--black);
 }
 
 .cv {
@@ -92,12 +93,8 @@ h2 {
 }
 
 .img-logos {
-  height: 50px;
-  width: 50px;
-}
-
-.contact-icons {
-  width: 30px;
+  height: 55px;
+  width: 55px;
 }
 
 .biographie-text {
@@ -125,6 +122,11 @@ h2 {
   justify-content: unset;
   align-items: baseline;
   flex-wrap: wrap;
+}
+
+.contact-icons {
+  width: 30px;
+  margin-bottom: ;
 }
 
 .content-color {
