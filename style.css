@@ -6,7 +6,7 @@
 :root {
   --primary: rgba(109, 129, 76, 0.664);
   --black: #2b2929;
-  --content-color: rgb(43, 41, 41);
+  --content-color: rgb(58, 56, 56);
   --content-text-color: rgba(224, 226, 221, 0.664);
   width: 100vw;
   padding: 20px;
@@ -72,11 +72,11 @@ h2 {
 }
 
 .border-top {
-  border-top: 1px solid var(--black);
+  border-top: 1px solid var(--content-color);
 }
 
 .border-bottom {
-  border-bottom: 1px solid var(--black);
+  border-bottom: 1px solid var(--content-color);
 }
 
 .cv {
