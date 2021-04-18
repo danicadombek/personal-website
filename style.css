@@ -5,8 +5,9 @@
 /* Variable global*/
 :root {
   --primary: rgba(109, 129, 76, 0.664);
-  --black: rgb(43, 41, 41);
-  --content-color: #d1d1d0;
+  --black: #2b2929;
+  --content-color: rgb(43, 41, 41);
+  --content-text-color: rgba(224, 226, 221, 0.664);
   width: 100vw;
   padding: 20px;
   margin: auto;
@@ -14,7 +15,8 @@
 
 header {
   background-color: var(--content-color);
-  padding: 10px;
+  padding: 15px;
+  color: var(--content-text-color);
 }
 
 body {
@@ -54,7 +56,7 @@ h2 {
 }
 
 .navi-buttons {
-  background-color: var(--black);
+  background-color: var(--primary);
   color: azure;
   margin-bottom: 10px;
   padding: 10px;
@@ -101,12 +103,13 @@ h2 {
   text-align: justify;
 }
 
-.links-kontakt {
+.contact-links {
   border-bottom: 1px solid;
   color: var(--black);
   font-style: normal;
   margin-left: 10px;
   text-decoration: none;
+  color: var(--content-text-color);
 }
 
 .cv-dates {
@@ -120,18 +123,18 @@ h2 {
 .contact-flex {
   display: flex;
   justify-content: unset;
-  align-items: baseline;
+  align-items: center;
   flex-wrap: wrap;
 }
 
 .contact-icons {
   width: 30px;
-  margin-bottom: ;
 }
 
 .content-color {
   background-color: var(--content-color);
   padding: 10px;
+  color: var(--content-text-color);
 }
 
 .content-headline {
