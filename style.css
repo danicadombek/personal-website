@@ -15,8 +15,8 @@
 
 header {
   background-color: var(--content-color);
-  padding: 15px;
   color: var(--content-text-color);
+  padding: 15px;
 }
 
 body {
@@ -69,10 +69,10 @@ h2 {
 }
 
 .columns {
-  display: flex;
-  justify-content: flex-start;
   align-items: baseline;
+  display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .border-top {
@@ -92,10 +92,10 @@ h2 {
 }
 
 .social-media {
-  display: flex;
-  justify-content: flex-start;
   align-items: center;
+  display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .img-logos {
@@ -159,8 +159,8 @@ h2 {
   height: 30px;
 }
 
-.pfeil-rechts {
+.arrow-flex {
+  align-items: center;
   display: flex;
-  justify-content: flex-end;
-  margin-top: 0;
+  justify-content: space-between;
 }
