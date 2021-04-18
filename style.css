@@ -6,6 +6,14 @@
 :root {
   --primary: rgba(109, 129, 76, 0.664);
   --black: rgb(43, 41, 41);
+  --content-color: #d1d1d0;
+  width: 100vw;
+  padding: 20px;
+}
+
+header {
+  background-color: var(--content-color);
+  padding: 10px;
 }
 
 body {
@@ -13,9 +21,7 @@ body {
   color: var(--black);
   font-family: 'Roboto', sans-serif;
   line-height: 1.4;
-  padding: 10px;
   margin: 0;
-  width: 100vw;
 }
 
 nav {
@@ -25,6 +31,11 @@ nav {
 img {
   height: auto;
   width: 100%;
+}
+
+figcaption {
+  font-size: 14px;
+  margin-bottom: 20px;
 }
 
 ul {
@@ -57,11 +68,19 @@ h2 {
   flex-wrap: wrap;
 }
 
+.border-top {
+  border-top-style: solid;
+}
+
+.border-bottom {
+  border-bottom-style: solid;
+}
+
 .cv {
   text-align: left;
 }
 
-.extra-margin {
+.flex-margin {
   margin-left: 40px;
 }
 
@@ -77,7 +96,7 @@ h2 {
   width: 50px;
 }
 
-.kontakt-icons {
+.contact-icons {
   width: 30px;
 }
 
@@ -106,4 +125,22 @@ h2 {
   justify-content: unset;
   align-items: baseline;
   flex-wrap: wrap;
+}
+
+.content-color {
+  background-color: var(--content-color);
+  padding: 10px;
+}
+
+.content-headline {
+  margin-top: 0;
+}
+
+.impressum {
+  font-size: 14px;
+  margin: 20px 0 0;
+}
+
+.copyright {
+  font-size: 12px;
 }
