@@ -1,0 +1,11 @@
+.social-media {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.img-logos {
+  height: 55px;
+  width: 55px;
+}

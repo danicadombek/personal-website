@@ -1,0 +1,49 @@
+.contact-links {
+  border-bottom: 1px solid;
+  color: var(--black);
+  font-style: normal;
+  margin-left: 10px;
+  text-decoration: none;
+  color: var(--content-text-color);
+}
+
+.contact-flex {
+  display: flex;
+  justify-content: unset;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-icons {
+  width: 30px;
+}
+
+.content-color {
+  background-color: var(--content-color);
+  padding: 10px;
+  color: var(--content-text-color);
+}
+
+.content-headline {
+  margin-top: 0;
+}
+
+.impressum {
+  font-size: 14px;
+  margin: 20px 0 0;
+}
+
+.copyright {
+  font-size: 12px;
+}
+
+.back-top {
+  width: 30px;
+  height: 30px;
+}
+
+.arrow-flex {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
