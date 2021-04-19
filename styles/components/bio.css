@@ -1,0 +1,15 @@
+.bio__text {
+  text-align: justify;
+}
+
+.bio__border {
+  border-top: 1px solid var(--content-color);
+}
+
+.bio__headline {
+  font-size: 18px;
+}
+
+.bio__margin {
+  margin-bottom: 20px;
+}
