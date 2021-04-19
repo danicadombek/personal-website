@@ -1,0 +1,9 @@
+.img-fluid {
+  height: auto;
+  width: 100%;
+}
+
+figcaption {
+  font-size: 14px;
+  margin-bottom: 20px;
+}

@@ -4,16 +4,7 @@
 @import 'styles/_variables.css';
 @import 'styles/components/header.css';
 @import 'styles/components/navi.css';
-
-img {
-  height: auto;
-  width: 100%;
-}
-
-figcaption {
-  font-size: 14px;
-  margin-bottom: 20px;
-}
+@import 'styles/_utility.css';
 
 ul {
   list-style-type: none;
