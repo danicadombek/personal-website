@@ -1,27 +1,9 @@
 /* Selector vor der Klammer, alles: CSS-Element */
 
-@import url(styles/_base.css);
-
-/* Variable global*/
-:root {
-  --primary: rgba(109, 129, 76, 0.664);
-  --black: #2b2929;
-  --content-color: rgb(58, 56, 56);
-  --content-text-color: rgba(253, 253, 252, 0.664);
-  width: 100vw;
-  padding: 20px;
-  margin: auto;
-}
-
-header {
-  background-color: var(--content-color);
-  color: var(--content-text-color);
-  padding: 15px;
-}
-
-nav {
-  margin: 20px 0;
-}
+@import 'styles/_base.css';
+@import 'styles/_variables.css';
+@import 'styles/components/header.css';
+@import 'styles/components/navi.css';
 
 img {
   height: auto;
