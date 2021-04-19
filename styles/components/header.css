@@ -1,5 +1,22 @@
-header {
+.header {
   background-color: var(--content-color);
   color: var(--content-text-color);
   padding: 15px;
+}
+
+.header__h1 {
+  margin-bottom: 50px;
+}
+
+.header__nav {
+  margin: 20px 0;
+}
+
+.header__navi-buttons {
+  background-color: var(--primary);
+  color: var(--content-text-color);
+  margin-bottom: 10px;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
