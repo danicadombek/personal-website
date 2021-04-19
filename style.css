@@ -1,7 +1,7 @@
 /* Selector vor der Klammer, alles: CSS-Element */
-* {
-  box-sizing: border-box;
-}
+
+@import url(styles/_base.css);
+
 /* Variable global*/
 :root {
   --primary: rgba(109, 129, 76, 0.664);
@@ -17,13 +17,6 @@ header {
   background-color: var(--content-color);
   color: var(--content-text-color);
   padding: 15px;
-}
-
-body {
-  background-color: var(--primary);
-  font-family: 'Poppins', sans-serif;
-  line-height: 1.4;
-  margin: 0;
 }
 
 nav {
