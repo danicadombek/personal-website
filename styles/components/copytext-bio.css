@@ -1,0 +1,7 @@
+.biographie-text {
+  text-align: justify;
+}
+
+.border-top {
+  border-top: 1px solid var(--content-color);
+}

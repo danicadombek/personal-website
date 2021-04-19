@@ -1,0 +1,15 @@
+.cv {
+  text-align: left;
+}
+
+.cv-dates {
+  font-size: 12px;
+}
+
+.cv-content {
+  margin: 0;
+}
+
+.border-bottom {
+  border-bottom: 1px solid var(--content-color);
+}

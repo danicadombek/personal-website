@@ -5,35 +5,9 @@
 @import 'styles/components/header.css';
 @import 'styles/components/navi.css';
 @import 'styles/_utility.css';
-@import 'styles/components/list.css';
-
-.border-top {
-  border-top: 1px solid var(--content-color);
-}
-
-.border-bottom {
-  border-bottom: 1px solid var(--content-color);
-}
-
-.cv {
-  text-align: left;
-}
-
-.social-media {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
-
-.img-logos {
-  height: 55px;
-  width: 55px;
-}
-
-.biographie-text {
-  text-align: justify;
-}
+@import 'styles/components/list-skills.css';
+@import 'styles/components/copytext-bio.css';
+@import 'styles/components/list-cv.css';
 
 .contact-links {
   border-bottom: 1px solid;
@@ -42,14 +16,6 @@
   margin-left: 10px;
   text-decoration: none;
   color: var(--content-text-color);
-}
-
-.cv-dates {
-  font-size: 12px;
-}
-
-.cv-content {
-  margin: 0;
 }
 
 .contact-flex {
@@ -71,6 +37,18 @@
 
 .content-headline {
   margin-top: 0;
+}
+
+.social-media {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.img-logos {
+  height: 55px;
+  width: 55px;
 }
 
 .impressum {
