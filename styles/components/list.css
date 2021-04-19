@@ -3,3 +3,14 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.columns {
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.flex-margin {
+  margin-left: 40px;
+}

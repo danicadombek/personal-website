@@ -7,13 +7,6 @@
 @import 'styles/_utility.css';
 @import 'styles/components/list.css';
 
-.columns {
-  align-items: baseline;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
-
 .border-top {
   border-top: 1px solid var(--content-color);
 }
@@ -24,10 +17,6 @@
 
 .cv {
   text-align: left;
-}
-
-.flex-margin {
-  margin-left: 40px;
 }
 
 .social-media {
