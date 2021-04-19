@@ -1,5 +1,3 @@
-/* Selector vor der Klammer, alles: CSS-Element */
-
 @import 'styles/_base.css';
 @import 'styles/_variables.css';
 @import 'styles/components/header.css';

@@ -43,7 +43,7 @@
 }
 
 .arrow-flex {
-  align-items: center;
+  align-items: baseline;
   display: flex;
   justify-content: space-between;
 }
