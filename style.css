@@ -7,15 +7,6 @@
 @import 'styles/_utility.css';
 @import 'styles/components/list.css';
 
-.navi-buttons {
-  background-color: var(--primary);
-  color: var(--content-text-color);
-  margin-bottom: 10px;
-  padding: 10px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
 .columns {
   align-items: baseline;
   display: flex;
