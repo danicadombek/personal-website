@@ -1,0 +1,15 @@
+.social__h2 {
+  font-size: 18px;
+}
+
+.social__flex {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.social__logos {
+  height: 55px;
+  width: 55px;
+}

@@ -1,0 +1,23 @@
+.cv {
+  text-align: left;
+}
+
+.cv__h2 {
+  font-size: 18px;
+}
+
+.cv__m-20 {
+  margin-bottom: 20px;
+}
+
+.cv__dates {
+  font-size: 12px;
+}
+
+.cv__content {
+  margin: 0;
+}
+
+.cv__border-bottom {
+  border-bottom: 1px solid var(--content-color);
+}

@@ -1,0 +1,24 @@
+.skills__h2 {
+  font-size: 18px;
+}
+
+.skills__ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills__columns {
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.skills__flex-margin {
+  margin-left: 40px;
+}
+
+.skills__m-20 {
+  margin-bottom: 20px;
+}
